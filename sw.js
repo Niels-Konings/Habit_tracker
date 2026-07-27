@@ -1,7 +1,7 @@
 /* Habits service worker - offline app shell.
    Bump CACHE (and APP_VERSION in index.html) together on every update. */
-const CACHE = 'habits-v1.0.0';
-const CORE = ['./', './index.html', './manifest.json'];
+const CACHE = 'habits-v1.0.1';
+const CORE = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png', './icon-512-maskable.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
